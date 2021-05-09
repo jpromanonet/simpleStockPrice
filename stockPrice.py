@@ -11,6 +11,8 @@ st.write("""
 
 Show are the stock information of Google!
 
+---
+
 """)
 
 # Define the ticker symbol (you could modify every time you want)
@@ -41,9 +43,3 @@ st.line_chart(tickerDf.Volume)
 
 st.write(""" ### Dividends from stock information""")
 st.line_chart(tickerDf.Dividends)
-
-st.write(""" ### Stock information""")
-st.line_chart(tickerDf.Stock)
-
-st.write(""" ### Splits stock information""")
-st.line_chart(tickerDf.Splits)
