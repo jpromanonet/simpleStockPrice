@@ -16,7 +16,7 @@ A simple stock price data science project made with Python and Streamlit
    pip3 install protobuf --upgrade
    ```
 
-   Then run "streamlit hello" again and it should work fine.
+   Then run "streamlit hello" again and it should work just fine.
 
 3. Now we should install pandas and yfinance, which we are going to use in the python file.
 
@@ -25,4 +25,4 @@ A simple stock price data science project made with Python and Streamlit
    pip3 install yfinance
    ```
 
-4.
+## How to run the Simple Stock Price app
