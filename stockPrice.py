@@ -24,7 +24,8 @@ tickerData = yf.Ticker(tickerSymbol)
 tickerDf = tickerData.history(period='1d', start='2011-5-9', end='2021-5-9')
 
 # Open High Low Close Volume Dividends Stock Splits
-
-# Now show the volume and close values with streamlit
+st.line_chart(tickerDf.Open)
+st.line_chart(tickerDf.High)
+st.line_chart(tickerDf.Low)
 st.line_chart(tickerDf.Close)
 st.line_chart(tickerDf.Volume)
