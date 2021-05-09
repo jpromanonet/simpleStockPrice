@@ -8,10 +8,10 @@ import pandas as pd
 
 st.write("""
 # Simple Stock Price App
-# 
-# Show are the stock closing price and volume of Google!
-# 
-# """)
+
+Show are the stock closing price and volume of Google!
+
+""")
 
 # Define the ticker symbol (you could modify every time you want)
 tickerSymbol = 'GOOGL'
