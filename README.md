@@ -37,4 +37,4 @@ It will open a browser tab at:
 http://localhost:8502
 ```
 
-Remember! you can change the ticker handler in the "tickerSymbol" variable and the time range for Close prices and volume in the "period" paramenter for tickerDf function.
+Remember! you can change the ticker handler in the "tickerSymbol" variable and the time range for stock information in the "period" paramenter for tickerDf function.
