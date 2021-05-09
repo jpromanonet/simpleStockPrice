@@ -26,3 +26,15 @@ A simple stock price data science project made with Python and Streamlit
    ```
 
 ## How to run the Simple Stock Price app
+
+```
+streamlit run stockPrice.py
+```
+
+It will open a browser tab at:
+
+```
+http://localhost:8502
+```
+
+Remember! you can change the ticker handler in the "tickerSymbol" variable and the time range for Close prices and volume in the "period" paramenter for tickerDf function.
