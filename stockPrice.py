@@ -17,3 +17,4 @@ st.write("""
 tickerSymbol = 'GOOGL'
 
 # Get data on this ticker
+tickerData = yf.Ticker(tickerSymbol)
