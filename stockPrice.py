@@ -38,6 +38,10 @@ st.line_chart(tickerDf.Close)
 
 st.write(""" ### Volume stock information""")
 st.line_chart(tickerDf.Volume)
+
+st.write(""" ### Dividends from stock information""")
 st.line_chart(tickerDf.Dividends)
+
+st.write(""" ### Stock information""")
 st.line_chart(tickerDf.Stock)
 st.line_chart(tickerDf.Splits)
