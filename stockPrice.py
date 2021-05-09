@@ -9,7 +9,7 @@ import pandas as pd
 st.write("""
 # Simple Stock Price App
 
-Show are the stock closing price and volume of Google!
+Show are the stock information of Google!
 
 """)
 
@@ -24,8 +24,18 @@ tickerData = yf.Ticker(tickerSymbol)
 tickerDf = tickerData.history(period='1d', start='2011-5-9', end='2021-5-9')
 
 # Open High Low Close Volume Dividends Stock Splits
+st.write(""" ### Open stock information""")
 st.line_chart(tickerDf.Open)
+
+st.write(""" ### Higher price stock information""")
 st.line_chart(tickerDf.High)
+
+st.write(""" ### Lowest price stock information""")
 st.line_chart(tickerDf.Low)
+
+st.write(""" ### Close stock information""")
 st.line_chart(tickerDf.Close)
 st.line_chart(tickerDf.Volume)
+st.line_chart(tickerDf.Dividends)
+st.line_chart(tickerDf.Stock)
+st.line_chart(tickerDf.Splits)
